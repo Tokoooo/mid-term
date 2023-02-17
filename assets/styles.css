@@ -1,0 +1,138 @@
+aside {
+    background-color: var(--lightblack);
+    max-width: 250px;
+    display: inline-block;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px 15px;
+    float: left;
+}
+
+.aside-container {
+    padding: 15px;
+}
+
+.design-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.menu-items ul li{
+    margin: 30px 0;
+}
+
+.menu-items a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px;
+}
+
+.following-items img:nth-child(1){
+    width: 44px;
+    height: 44px;
+}
+
+.following-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.following-items ul li {
+    margin: 30px 0;
+}
+
+.following-items a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 4px;
+}
+
+.menu-items a:hover {
+    background-color: var(--pink);
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px black;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid var(--loadColor);
+}
+
+form {
+    background-color: #F8F8F8;
+    border-radius: 12px;
+}
+
+#search-bar {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar input {
+    background-color: #F8F8F8;
+    width: 446px;
+    height: 56px;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 20px 16px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: var(--black);
+}
+
+#search-bar button img {
+    user-select: none;
+    width: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+#search-bar button {
+    vertical-align: middle;
+    border: none;
+    border-radius: 12px;
+    background-color: #F8F8F8;
+}
+
+.profile-area > *{
+    margin: 0 15px;
+}
+
+.profile-area button {
+    width: 129px;
+    height: 56px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.profile-area button:hover {
+    background-color: var(--pink);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, .3);
+    color: #FFFFFF;
+    transform-origin: 0 0;
+}
+
+

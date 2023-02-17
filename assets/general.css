@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --pink : #FF2288;
+    --lightblack: #222222;
+    --black: #111111;
+    --loadColor: #F2F2F2;
+    --lightgray : #D8D8D8;
+    --footColor: #FAFAFA;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
