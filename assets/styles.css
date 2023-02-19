@@ -8,6 +8,10 @@ aside {
     float: left;
 }
 
+header a {
+    color: #FFFFFF;
+}
+
 .aside-container {
     padding: 15px;
 }
@@ -86,8 +90,7 @@ form {
 
 #search-bar input {
     background-color: #F8F8F8;
-    width: 446px;
-    height: 56px;
+    width: 336px;
     flex: 1;
     border: 0;
     outline: none;
@@ -134,5 +137,53 @@ form {
     color: #FFFFFF;
     transform-origin: 0 0;
 }
+
+.section-container {
+    max-width: 1231px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-header ul{
+    display: flex;
+}
+
+.section-header li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    width: 83px;
+    height: 21px;
+}
+
+.section-header li:hover {
+    background-color: var(--loadColor);
+    border: 1px solid var(--lightgray);
+    border-radius: 12px;
+}
+
+.filter-comp {
+    width: 132px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--lightgray);
+    border-radius: 12px;
+}
+
+.filter-comp a {
+    margin-left: 7px;
+}
+
 
 
