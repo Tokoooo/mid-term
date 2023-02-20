@@ -1,5 +1,11 @@
 *{
     box-sizing: border-box;
+    font-family: Avenir-Heavy, sans-serif;
+}
+
+@font-face {
+    font-family: 'Avenir-Heavy';
+    src: url('../fonts/Avenir-Heavy.ttf');
 }
 
 :root{

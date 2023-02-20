@@ -1,7 +1,6 @@
 aside {
     background-color: var(--lightblack);
     max-width: 250px;
-    display: inline-block;
     flex-direction: column;
     height: 100%;
     padding: 20px 15px;
@@ -239,12 +238,125 @@ form {
     cursor: pointer;
 }
 
+#load-more button:hover {
+    transition: all .5s;
+    opacity: 30%;
+}
+
 .designer-content {
-    max-width: 1601px;
+    max-width: 100%;
+    background-color: #FAFAFA;
     height: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.top-text p {
-
+.top-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.top-text span{
+    color: #222222;
+    font-size: 14px;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.top-text span:hover{
+    text-decoration: underline;
+}
+
+.designers {
+    margin-top: 40px;
+}
+
+.top-text h2 {
+    margin-left: 35px;
+}
+
+.designer-profile img {
+    cursor: pointer;
+}
+
+.designer-profile {
+    margin: 0 30px;
+}
+
+.inline-text {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inline-text i {
+    margin-top: 7px;
+    color: #222222;
+    font-size: 12px;
+}
+
+.designers img{
+    width: 132px;
+    height: 132px;
+    object-fit: cover;
+}
+
+.button-side {
+    margin-top: 10px;
+    border: none;
+    background-color: var(--loadColor);
+}
+
+.button-side button {
+    cursor: pointer;
+    border: none;
+    width: 132px;
+    height: 44px;
+    border-radius: 12px;
+}
+
+.button-side button:hover {
+    background-color: #FAFAFA;
+    opacity: 1;
+}
+
+.foot-section {
+    margin-top: 30px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordered-list {
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+.ordered-list li {
+    margin: 5px 0;
+}
+
+.ordered-list li:hover {
+    text-decoration: underline;
+}
+
+.for-designers, .hire-designers, .directories, .company {
+    margin-bottom: 40px;
+}
+
+footer {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px !important;
+}
+
+.smart {
+    font-family: Avenir-Heavy, sans-serif;
+}
