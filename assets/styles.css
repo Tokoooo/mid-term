@@ -307,6 +307,7 @@ form {
     margin-top: 10px;
     border: none;
     background-color: var(--loadColor);
+    border-radius: 12px;
 }
 
 .button-side button {
