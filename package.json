@@ -1,0 +1,22 @@
+{
+  "name": "mid-term",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tokoooo/mid-term.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tokoooo/mid-term/issues"
+  },
+  "homepage": "https://github.com/Tokoooo/mid-term#readme",
+  "dependencies": {
+    "react-bootstrap": "^2.7.2"
+  }
+}

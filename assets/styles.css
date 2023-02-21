@@ -73,6 +73,7 @@ header a {
 
 .navbar-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
@@ -80,13 +81,13 @@ header a {
 }
 
 form {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #F8F8F8;
     border-radius: 12px;
 }
 
 #search-bar {
-    width: 100%;
-    max-width: 700px;
     display: flex;
     align-items: center;
 }
@@ -125,6 +126,20 @@ form {
     margin: 0 15px;
 }
 
+.lit-ico {
+    position: relative;
+}
+
+.lit-ico i {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--pink);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .profile-area button {
     width: 129px;
     height: 56px;
@@ -153,6 +168,7 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .section-header ul{
@@ -269,6 +285,7 @@ form {
 }
 
 .designers {
+    flex-wrap: wrap;
     margin-top: 40px;
 }
 
@@ -360,4 +377,68 @@ footer {
 
 .smart {
     font-family: Avenir-Heavy, sans-serif;
+}
+
+.section-table {
+    max-width: 1450px;
+    margin: 0 auto;
+    margin-top: 35px !important;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-table table {
+    text-align: left;
+    width: 1250px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.section-table table th {
+    font-size: 18px;
+    color: var(--black);
+    padding: 20px 15px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-table table td {
+    color: #afafaf;
+    padding: 25px 16px;
+    border-bottom: 1px solid #afafaf;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1024px){
+    #search-bar {
+        display: block;
+        width: 100%;
+    }
+    .grid-images {
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-images span {
+        width: 300px;
+    }
+
+    .filter-comp {
+        margin: 0 auto;
+        margin-top: 10px!important;
+        margin-right: 370px;
+    }
+
+    #load-more{
+        margin-left: 80px;
+    }
+
+    .foot-section {
+        margin-top: 80px;
+    }
+
+    .profile-area {
+        margin: 0 auto;
+    }
 }
